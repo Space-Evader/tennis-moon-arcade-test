@@ -20,9 +20,9 @@ const config = {
 const game = new Phaser.Game(config);
 
 function preload() {
-    this.load.image('ball', 'assets/ball.png');
-    this.load.image('paddle', 'assets/paddle.png');
-    this.load.image('background', 'assets/background.png');
+    this.load.image('ball', 'ball.png');
+    this.load.image('paddle', 'paddle.png');
+    this.load.image('background', 'background.png');
     this.load.image('speedBoost', 'assets/speedBoost.png');
     this.load.image('shield', 'assets/shield.png');
     this.load.image('multiBall', 'assets/multiBall.png');
